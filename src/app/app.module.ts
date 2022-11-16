@@ -19,7 +19,9 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatListModule } from '@angular/material/list';
 import {MatIconModule} from '@angular/material/icon';
 
-
+import { TableComponent } from './components/table/table.component';
+import { UploadImagesComponent } from './components/upload-images/upload-images.component';
+import { DialogComponent } from './components/dialog/dialog.component';
 
 const materialModules = [
   MatTableModule,
@@ -38,6 +40,9 @@ const materialModules = [
 @NgModule({
   declarations: [
     AppComponent,
+    TableComponent,
+    UploadImagesComponent,
+    DialogComponent,
   ],
   imports: [
     BrowserModule,
